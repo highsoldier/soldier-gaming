@@ -1,0 +1,52 @@
+body {
+    background-color: #0b0c10;
+    color: #66fcf1;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.launcher-box {
+    background-color: #1f2833;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+    text-align: center;
+    border: 1px solid #45a29e;
+}
+
+h1 {
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+
+select, button {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+select {
+    background-color: #0b0c10;
+    color: #c5c6c7;
+    border: 1px solid #45a29e;
+}
+
+button {
+    background-color: #66fcf1;
+    color: #0b0c10;
+    font-weight: bold;
+    transition: background 0.2s;
+}
+
+button:hover {
+    background-color: #45a29e;
+}
